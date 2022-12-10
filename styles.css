@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, input {
+    font-family: "Inter";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    margin-top: 16px;
+}
+
+.nav-links {
+    display: inline-flex;
+}
+
+.nav-links a, .nav-links li {
+    display: block;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    transition: .1s;
+}
+
+.nav-links a:hover, .nav-links li:hover {
+    cursor: pointer;
+    border: 1px solid #2b75ff;
+    background: #2b75ff;
+    color: #fff;
+    transition: .1s;
+}
+
+.nav-links li + a, .nav-links a + li {
+    margin-left: 10px;
+}
+
+.dropdown-links {
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+    padding: 8px 0;
+    top: 64px;
+    margin-left: 80px;
+    background: #f3f3f3;
+    border-radius: 6px;
+}
+
+.dropdown-links a {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 12px;
+    transition: .1s;
+}
+
+.dropdown-links a:hover {
+    background: #2b75ff;
+    color: #fff;
+    transition: .1s;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.hero-block {
+    display: flex;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+    width: 100%;
+    height: 30vw;
+    background: url('img/hero.jpg');
+    background-size: cover;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.hero-content {
+    width: 100%;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.hero-content p {
+    font-size: 20px;
+}

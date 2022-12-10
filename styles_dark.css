@@ -1,0 +1,30 @@
+.body-dark {
+    background: #111;
+    color: #fff;
+}
+
+.a-dark {
+    color: #fff;
+}
+
+.nav-links-dark a, .nav-links-dark li {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.nav-links-dark a:hover, .nav-links-dark li:hover {
+    color: #fff;
+}
+
+.dropdown-links-dark {
+    background: #222;
+}
+
+.dropdown-links-dark  {
+    background: #222;
+}
+
+.dropdown-links-dark a:hover {
+    color: #fff;
+}
+
